@@ -1,0 +1,38 @@
+{
+    "name": "gw2-forum-dev-tracker",
+    "version": "0.0.1",
+    "description": "Guild Wars 2 forum dev tracker",
+    "private": true,
+    "scripts": {
+        "start": "babel-node -r dotenv/config index.js"
+    },
+    "dependencies": {
+        "axios": "^0.27.2",
+        "dotenv": "^16.0.1",
+        "rss-parser": "^3.12.0"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.18.9",
+        "@babel/eslint-parser": "^7.18.9",
+        "@babel/node": "^7.18.9",
+        "@babel/preset-env": "^7.18.9",
+        "@moso/eslint-config-basic": "^0.2.16",
+        "eslint": "^8.20.0",
+        "eslint-config-prettier": "^8.5.0",
+        "prettier": "^2.7.1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/arkyfinity/gw2-forum-dev-tracker"
+    },
+    "author": {
+        "name": "Arky",
+        "email": "hello@arky.gg",
+        "url": "https://arky.gg"
+    },
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/arkyfinity/gw2-forum-dev-tracker/issues"
+    },
+    "homepage": "https://arky.gg"
+}
