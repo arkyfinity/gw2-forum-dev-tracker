@@ -66,8 +66,6 @@ setInterval(async () => {
                     siteData[itemID] = {
                         'published': true
                     }
-
-                    discordlog('gw2-dev-tracker', 'feed updated')
                 }
             })
             fs.writeFileSync('feed.json', JSON.stringify(siteData))
@@ -77,4 +75,4 @@ setInterval(async () => {
     } catch(error) {
         discordlog('gw2-dev-tracker fetch', error)
     }
-}, 900000)
+}, 5000)
